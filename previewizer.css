@@ -1,0 +1,22 @@
+.previewizer-panel {
+  background-color: #aaa;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  width: 0%;
+  /*width: 50%;*/
+}
+
+.previewizer-frame {
+  background-color: blue;
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+#wpwrap.suppressed {
+  overflow-y: scroll;
+}
